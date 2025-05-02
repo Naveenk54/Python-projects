@@ -1,0 +1,72 @@
+My code is completely based on Libraries, functions, conditions and error hanndling concepts.
+
+WHAT JARVIS IS?
+Jarvis is a simple voice assistant that listens to your commands and performs tasks like opening websites, playing music, or sending emails. It's like talking to a helper on your computer!
+
+FUNCTIONALITIES THAT MY JARVIS CAN PERFORM:
+1. Greet the User
+   Description: Welcomes the user based on the time of day (morning, afternoon, evening).
+   Libraries Used:
+        datetime (to get the current hour)
+        pyttsx3 (for text-to-speech conversion)
+
+2. Wikipedia Search
+   Description: Searches Wikipedia for a given query and reads out a summary of the top result.
+   Libraries Used:
+        wikipedia (for accessing Wikipedia API)
+        pyttsx3 (for text-to-speech conversion)
+
+3. Open Websites
+   Description: Opens popular websites like Google and YouTube directly in the browser.
+   Libraries Used:
+        webbrowser (for opening URLs in the default browser)
+
+4. Open Applications
+   Description: Launches system apps such as:
+     - Calendar
+     - Camera
+     - Notepad
+     - Calculator
+   Libraries Used:
+        os (to execute system commands)
+
+5. Open Code File
+   Description: Opens a specific Python script file (or other files) located on your system.
+   Libraries Used:
+        os (to execute system commands)
+
+6. Play Music
+   Description: Plays the first song from the specified directory.
+   Libraries Used:
+        os (to execute system commands)
+
+7. Check the Time
+   Description: Tells the current time in HH:MM:SS format.
+   Libraries Used:
+        datetime (to get the current time)
+
+8. Send Emails
+   Description: Sends emails to specific recipients via Gmail after taking voice input for the email body.
+   Libraries Used:
+        smtplib (for sending emails)
+
+EXAMPLE COMMANDS FOR DEMO:
+
+"Search Wikipedia for Albert Einstein" – Jarvis will fetch a summary from Wikipedia.
+"Open Google" – Jarvis will open the Google homepage in your browser.
+"Play music" – Jarvis will play the first song in your music folder.
+"What time is it?" – Jarvis will tell you the current time.
+"Send an email to Naveen" – Jarvis will help you send an email.
+"Open Notepad" – Jarvis will launch Notepad on your computer.
+"Open calculator" – Jarvis will open the calculator app.
+"Open YouTube" – Jarvis will take you to YouTube in your browser.
+
+////////////////////////////////////////////////////////////
+pip install pyttsx3 
+pip install speech_recognition as sr  
+pip install datetime  
+pip install wikipedia 
+pip install webbrowser  
+pip install os
+pip install smtplib  
+pip install pyaudio  
